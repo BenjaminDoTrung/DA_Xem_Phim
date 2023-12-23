@@ -1,0 +1,170 @@
+body{
+    background-color: #150808;
+    margin: 0px;
+    padding: 0px;
+}
+#divTong {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.background {
+
+    background-color: #310606;
+    height: 55px;
+    padding: 0px;
+}
+h1 {
+    margin: 0px;
+    padding-top:5px;
+    color: #FFFFFF;
+    text-align: center;
+    height: 55px;
+    font-size: 40px;
+
+}
+#menu {
+    width: auto;
+    background-color: #000000;
+    display: flex;
+    height: 50px;
+
+    margin: 0px;
+}
+#menu1 {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#menu2 {
+    display: flex;
+    justify-content: right;
+    float: right;
+    width: 100%;
+
+    /*padding-right: 0px;*/
+    /*margin-right: 0px;*/
+}
+ul {
+    margin: 0px;
+    display: flex;
+}
+li {
+    color: white;
+    list-style-type: none;
+    margin-left: 30px;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    height: 50px;
+}
+a:hover {
+    color: #c23e57;
+}
+input {
+    height: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#dangnhap {
+    font-size: medium;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#dangnhap:hover {
+    color: #e30530;
+}
+
+#ulMenu1 li ul {
+    padding-top: 4px;
+    display: none;
+}
+
+#ulMenu1 li ul li {
+    border-bottom: 1px solid #9a6363;
+    text-align: left;
+    width: 150px;
+    background-color: #261717;
+    padding-left:0px;
+    padding-top: 10px;
+    list-style-type: none;
+    color: #f1f3f6;
+    margin-left: -20px;
+}
+
+#ulMenu1 li ul li {
+    margin-left: -40px;
+}
+
+#ulMenu1 li ul li:hover {
+    border-bottom: 1px solid #f8f5f5;
+}
+#ulMenu1 li:hover>ul{
+    display: block;
+    position: absolute;
+}
+
+#ulMenu1 li a {
+    height: 30px;
+}
+
+/*Phần thân */
+
+#thanMenu1 {
+    width: 2000px;
+    height: 350px;
+}
+#thanMenu1 ul {
+    padding: 0px;
+    height: 500px;
+    width: 1500px;
+}
+
+#thanMenu1 ul li a{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    padding-top: 20px;
+}
+#thanMenu1 ul li ul {
+    width: 1500px;
+    height: 300px;
+
+}
+#thanMenu1 ul li ul li {
+    width: 200px;
+    height: 270px
+}
+
+/*thân menu2*/
+#thanMenu2 {
+    width: 2000px;
+    height: 350px;
+}
+#thanMenu2 ul {
+    padding: 0px;
+    height: 500px;
+    width: 1500px;
+}
+
+#thanMenu2 ul li a{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    padding-top: 20px;
+}
+#thanMenu2 ul li ul {
+    width: 1500px;
+    height: 300px;
+
+}
+#thanMenu2 ul li ul li {
+    width: 200px;
+    height: 270px
+}

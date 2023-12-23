@@ -1,0 +1,40 @@
+body {
+    background-image: url("../pictures/anh_San_Pham/top-10-phim-khoa-hoc-vien-tuong-hay-va-hap-dan-nhat-moi-thoi-dai-202103101617214459.jpg ");
+}
+#Ten {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
+#login {
+    margin-top: 50px;
+    text-align: center;
+}
+#username {
+    width: 300px;
+    height: 30px;
+}
+#password {
+    width: 300px;
+    height: 30px;
+}
+#label1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 180px;
+}
+#label2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 220px;
+}
+#L {
+
+    width: 60px;
+    height: 30px;
+}
+#reset {
+    
+    width: 60px;
+    height: 30px;
+}
